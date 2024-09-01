@@ -1,0 +1,255 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    /* font-family:; */
+}
+body{
+    background-color: black;
+    color: white;
+}
+.main{
+    background-image: url(images/Netflix2.jpg);
+    width: 100vw;
+    height: 90vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+      background-size: max(1200px, 100vw);
+    position: relative;
+}
+.main .box {
+    height: 90vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav{
+    max-width: 75vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content:space-between;
+}
+nav img{
+    color: red;
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+nav button {
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    height: calc(100% - 150px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 25px;
+    padding: 0 30px;
+}
+.hero> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-family: 'Poppins', sans-serif;
+    font-weight:lighter;
+    font-size: 25px;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    font-family: 'Poppins', sans-serif;
+    font-weight:lighter;
+    font-size: 18px;
+    text-align: center;
+}
+.hero-buttons input{
+    height: 40px;
+    width: 400px;
+    background-color: black;
+    font-size: 20px;
+    font-weight:bold;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px;
+    opacity: .5;
+    color: white;
+   
+
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid red;
+}
+.btn2{
+    width: 80px;
+    height: 35px;
+    position: relative;
+    z-index: 10;
+    margin: 10px;
+    justify-content: space-between;
+}
+.btn3{
+    height: 60px;
+    width: 200px;
+    font-size: 22px;
+    padding: 10px;
+}
+.btn1{
+    height: 35px;
+    width: 130px;
+    font-size: 15px;
+    /* padding: 10px; */
+    background-color: black;
+    color: white;
+    opacity: .6;
+    border: 1px solid rgb(145, 133, 133);
+    border-radius: 5px;
+}
+.line{
+    height: 7px;
+    background-color:rgb(60, 60, 60);
+    /* position: relative; */
+}
+
+.first{
+    width: 100vw;
+    height: 500px;
+}
+.line1{
+    height: 7px;
+    background-color:rgb(60, 60, 60);
+    /* position: relative; */
+}
+
+.first{
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: black;
+}
+.second{
+    position: relative;
+}
+.second img{
+    width: 600px;
+    position: relative;
+    z-index: 10;
+}
+.second video{
+    position: absolute;
+    top:80px;
+    right:0;
+    left: px;
+    width: 535px;
+}
+.first>span{
+    display:flex ;
+    flex-direction: column;
+    padding: 34px 0px;
+}
+.first>div>div:nth-child(1){
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 20px;
+}
+.first>div>div:nth-child(2){
+    font-size: 25px;
+}
+
+.third{
+    display: flex;
+    
+    max-width: 90vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+   height: 500px;
+    background-color: black;
+}
+.forth div{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+}
+.forth1>div:nth-child(1){
+    font-size: 55px;
+    font-weight: bolder;
+    
+}
+
+.forth1>div:nth-child(2){
+    font-size: 30px;
+    font-weight: lighter;
+}
+.third img{
+    height: 400px;
+}
+
+
+.line2{
+    height: 7px;
+    background-color:rgb(60, 60, 60);
+}
+.fifth{
+    display: flex;
+    
+    max-width: 90vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+   height: 500px;
+    background-color: black;
+}
+
+.sixth{
+    position: relative;
+}
+.sixth img{
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.sixth video{
+    position: absolute;
+    top: 51px;
+    right: 100px;
+    /* bottom: 100px; */
+    left: px;
+    width: 355px;
+}
+.fifth>div>div:nth-child(1){
+      display: flex;
+      flex-direction: column;
+      font-size: 55px;
+    font-weight: bolder;
+}
+
+.fifth>div>div:nth-child(2){
+    font-size: 30px;
+    font-weight: lighter;
+
+}
+
